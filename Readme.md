@@ -1,64 +1,173 @@
-📌 Sports Management System
+# 🏆 Sports Management System
 
-The Sports Management System is a desktop-based application developed using Java (Swing) and MySQL to manage and organize sports academy activities efficiently. This project provides a centralized system for handling players, coaches, teams, tournaments, schedules, and match results.
+A **comprehensive desktop-based Sports Management System** developed using **Java (Swing)** and **MySQL** to efficiently manage sports academy operations. This application provides a centralized and structured way to handle players, coaches, teams, tournaments, schedules, and results.
 
-🚀 Features
-🔐 Admin Login System
-Secure login for system access
-🏢 Department Management
-Add, update, delete departments
-Assign sports categories (Cricket, Football, etc.)
-🧑‍🏫 Coach Management
-Manage coach details (name, email, password)
-👥 Team Management
-Create teams linked with departments and coaches
-🏃 Player Management
-Add players and assign them to teams and departments
-🏆 Tournament Management
-Manage tournament details like:
-Start Date
-End Date
-Number of Rounds
-Tournament Type
-📅 Schedule Management
-Schedule matches with location and date
-🥇 Result Management
-Record winners and losers of tournaments
-🛠️ Technologies Used
-Frontend: Java Swing (GUI)
-Backend: Java (JDBC)
-Database: MySQL
-IDE: NetBeans
-🗄️ Database Structure
+---
 
-The system uses the following tables:
+## 📌 Overview
 
-admin_login
-departments
-coach
-teams
-players
-tournaments
-schedules
-results
+The Sports Management System is designed to simplify and digitize the management of sports academies. It replaces manual processes with an intuitive graphical interface and a robust database backend, ensuring accuracy, consistency, and efficiency.
 
-All tables are connected using foreign key relationships to maintain data integrity.
+---
 
-🔗 Key Relationships
-Players → Teams & Departments
-Teams → Coach & Department
-Tournaments → Department
-Schedules → Team, Tournament, Department
-Results → Tournament & Teams
-🎯 Objective
+## 🚀 Key Features
 
-The main objective of this project is to:
+### 🔐 Admin Authentication
 
-Simplify sports academy management
-Reduce manual work
-Provide an organized and user-friendly system
-Maintain accurate and structured data
+- Secure login system for administrators
+- Controlled access to all modules
 
-👨‍💻 Author
-Paras
-Developed as an academic project
+### 🏢 Department Management
+
+- Create, update, and delete departments
+- Assign different sports categories (e.g., Cricket, Football)
+
+### 🧑‍🏫 Coach Management
+
+- Manage coach details including name, email, and password
+
+### 👥 Team Management
+
+- Create and manage teams
+- Assign teams to departments and coaches
+
+### 🏃 Player Management
+
+- Add and manage player details
+- Assign players to teams and departments
+
+### 🏆 Tournament Management
+
+- Create tournaments with:
+  - Start Date
+  - End Date
+  - Number of Rounds
+  - Tournament Type
+
+### 📅 Schedule Management
+
+- Organize match schedules with location and date
+
+### 🥇 Result Management
+
+- Record match results
+- Track winners and losers
+
+---
+
+## 🛠️ Technologies Used
+
+| Category | Technology  |
+| -------- | ----------- |
+| Frontend | Java Swing  |
+| Backend  | Java (JDBC) |
+| Database | MySQL       |
+| IDE      | NetBeans    |
+
+---
+
+## 🗄️ Database Design
+
+The system includes the following tables:
+
+- `admin_login`
+- `departments`
+- `coach`
+- `teams`
+- `players`
+- `tournaments`
+- `schedules`
+- `results`
+
+---
+
+## 🔗 Entity Relationships
+
+- **Players** → Teams & Departments
+- **Teams** → Coach & Department
+- **Tournaments** → Department
+- **Schedules** → Team, Tournament, Department
+- **Results** → Tournament & Teams
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/your-username/sports-management-system.git
+```
+
+### 2. Open Project
+
+- Import the project into NetBeans IDE
+
+### 3. Setup Database
+
+- Open MySQL
+- Create a database (e.g., `sportacademy`)
+- Run the provided SQL script to create tables
+
+### 4. Configure Database Connection
+
+Update your database connection in:
+
+```
+DBConnection.java
+```
+
+Set your:
+
+- Database URL
+- Username
+- Password
+
+### 5. Run Application
+
+- Run the main class from NetBeans
+- Login using admin credentials
+
+---
+
+## 📷 Screenshots
+
+Add screenshots of your application interface here for better presentation.
+
+---
+
+## 🎯 Project Objectives
+
+- Digitize sports academy management
+- Maintain structured and relational data
+- Provide a user-friendly GUI
+- Reduce manual errors and improve efficiency
+
+---
+
+## 🔮 Future Enhancements
+
+- 🌐 Web-based version (Spring Boot / React)
+- 📱 Mobile application
+- 📊 Player performance analytics
+- 🔐 Role-based authentication (Admin / Coach)
+- ☁️ Cloud database integration
+
+---
+
+## 👨‍💻 Author
+
+**Paras**
+Developer – Sports Management System
+
+---
+
+## 📄 License
+
+This project is intended for educational purposes only.
+
+---
+
+## ⭐ Support
+
+If you find this project useful, consider giving it a ⭐ on GitHub!
