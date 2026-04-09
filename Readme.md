@@ -130,12 +130,6 @@ Set your:
 
 ---
 
-## 📷 Screenshots
-
-Add screenshots of your application interface here for better presentation.
-
----
-
 ## 🎯 Project Objectives
 
 - Digitize sports academy management
