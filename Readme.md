@@ -6,7 +6,7 @@ A **comprehensive desktop-based Sports Management System** developed using **Jav
 
 ## 📌 Overview
 
-The Sports Management System is designed to simplify and digitize the management of sports academies. It replaces manual processes with an intuitive graphical interface and a robust database backend, ensuring accuracy, consistency, and efficiency.
+The Sports Management System is designed to simplify and digitize the management of sports academies. It replaces manual processes with an intuitive graphical interface and a robust database backend, ensuring accuracy, consistency, and efficiency...
 
 ---
 
