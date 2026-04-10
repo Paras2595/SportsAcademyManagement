@@ -158,7 +158,7 @@ Developer – Sports Management System
 
 ## 📄 License
 
-This project is intended for educational purposes only.
+This project is intended for educational purposes only...
 
 ---
 
