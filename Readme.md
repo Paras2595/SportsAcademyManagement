@@ -14,8 +14,8 @@ The Sports Management System is designed to simplify and digitize the management
 
 ### 🔐 Admin Authentication
 
-- Secure login system for administrators
-- Controlled access to all modules
+- Secure login system for administrators...
+- Controlled access to all modules...
 
 ### 🏢 Department Management
 
