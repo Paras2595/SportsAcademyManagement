@@ -1,6 +1,6 @@
 # 🏆 Sports Management System
 
-A **comprehensive desktop-based Sports Management System** developed using **Java (Swing)** and **MySQL** to efficiently manage sports academy operations. This application provides a centralized and structured way to handle players, coaches, teams, tournaments, schedules, and results.
+A **comprehensive desktop-based Sports Management System** developed using **Java (Swing)** and **MySQL** to efficiently manage sports academy operations. This application provides a centralized and structured way to handle players, coaches, teams, tournaments, schedules, and results...
 
 ---
 
